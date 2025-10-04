@@ -1,0 +1,34 @@
+#root{
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+:root{
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+	--candlelight-50: #fefde8;
+	--candlelight-100: #fdfac4;
+	--candlelight-200: #fcf18c;
+	--candlelight-300: #f9e24b;
+	--candlelight-400: #f6d32d;
+	--candlelight-500: #e5b70d;
+	--candlelight-600: #c68e08;
+	--candlelight-700: #9e650a;
+	--candlelight-800: #825011;
+	--candlelight-900: #6f4114;
+	--candlelight-950: #412207;
+}
+
+:root:has(.dark){
+	--candlelight-50:  #412207;
+	--candlelight-100: #6f4114;
+	--candlelight-200: #825011;
+	--candlelight-300: #9e650a;
+	--candlelight-400: #c68e08;
+	--candlelight-500: #e5b70d;
+	--candlelight-600: #f6d32d;
+	--candlelight-700: #f9e24b;
+	--candlelight-800: #fcf18c;
+	--candlelight-900: #fdfac4;
+	--candlelight-950: #fefde8;
+}
